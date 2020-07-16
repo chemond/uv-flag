@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body {
+  background-color: #FFF;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Lato", Arial, sans-serif;
+  font-weight: bold;
+}
+
+h1 {
+  padding-bottom: 2rem;
+}
+
+p, a {
+  font-size: 13pt;
+}
+
+#uv_logo {
+  height: auto;
+  width: 7em;
+}
+
+#uv_logo2 {
+  height: auto;
+  width: 30rem;
+  min-width: 2rem;
+}
+
+#uv-flag {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 2rem 0;
+  height: auto;
+  width: 100%
+}
+
+#donate-button1 {
+  font-size: 2rem;
+}
+
+#donate-button2 {
+  padding: 1rem 7rem;
+  font-size: 2rem;
+}
+
+.jumbotron {
+  /* background-image: url("../img/jack-anstey-HtUBBdNDxpQ-unsplash.jpg"); */
+  /* background-image: url("https://photos.smugmug.com/photos/i-V6CmR28/1/X3/i-V6CmR28-X3.jpg"); */
+  background-image: url("https://s3.amazonaws.com/american-rivers-website/wp-content/uploads/2016/07/08133415/connecticut-river-credit-scott-smith-flickrcc.jpg");
+  background-size: cover;
+}
+
+.photo-cred, .photo-cred a {
+  color: white;
+}
+
+.card-gfm {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 100%;
+  border-radius: 5%;
+}
+
+.card-gfm ul {
+  list-style: none;
+  padding: 0;
+}
+
+.card-gfm li::before {
+  content: "✓";
+  border-radius: 50%;
+  background-color: #337322;
+  color: #fff;
+  position: absolute;
+  display: block;
+  font-size: .618em;
+  font-weight: 600;
+  height: 1.618em;
+  left: 0;
+  line-height: 1.75;
+  text-align: center;
+  top: .382em;
+  width: 1.618em;
+}
+
+.card-gfm li {
+  margin-top: .618em;
+  padding-left: 1.618em;
+  position: relative;
+  text-align: left;
+}
+
+.card {
+  background-color: #EFEFEF
+}
+
+.card img {
+  max-width: 300px;
+  display: grid;
+  padding: 20px;
+}
+
+.product-info {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Footer */
+.page-footer {
+  margin-top: 10rem;
+  background-color: #1f2327;
+}
+
+.footer-copyright {
+  background-color: #1b1b1b;
+  color: white;
+}
+
+.logo-link {
+  font-family: "Permanent Marker";
+  margin-left: 5px;
+  color: orange;
+}
